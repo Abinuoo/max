@@ -1,307 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinu Alfred | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3336a79e2d.js" crossorigin="anonymous"></script>
-
-
 </head>
+
 <body>
-     <div id="header">
+
+    <!-- HEADER -->
+    <div id="header">
         <div class="container">
-                    <nav>
-                    <img src="images/DALL_E_2024-10-11_12.42.56_-_A_minimalist_logo_design_for_the_name__Abinu_Alfred__with_white_font_color._The_logo_should_feature_clean__simple_lines_and_geometric_shapes__with_a_m-removebg-preview.png" class="logo">
-            <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            <nav>
+                <img src="images/DALL_E_2024-10-11_12.42.56_-_A_minimalist_logo_design_for_the_name__Abinu_Alfred__with_white_font_color._The_logo_should_feature_clean__simple_lines_and_geometric_shapes__with_a-m-removebg-preview.png" class="logo" alt="Logo">
 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
 
-            </ul>
-            
-              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <div class="header-text">
+                <p>B.Tech Robotics & AI Student</p>
+                <h1>Hi, I am <span>ABINU ALFRED</span><br>From RIT College,<br>Kottayam</h1>
+            </div>
+        </div>
+    </div>
 
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
 
+                <div class="about-col-1">
+                    <img src="images/abinu dp.jpeg" alt="Profile Photo">
+                </div>
 
-                    </nav>
-                    <div class="header-text">
-                    <p>B.Tech Student</p>
-                    <h1>Hi,I am <span>ABINU ALFRED  </span><br>  From RIT Collage,<br>Kottayam</br></h1>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
 
-                   
+                    <p>
+                        I am a B.Tech student in Robotics and Artificial Intelligence at Rajiv Gandhi Institute of Technology, Kottayam.
+                        I am passionate about robotics, artificial intelligence, embedded systems, computer vision, and automation.
+                        <br><br>
+                        I enjoy building real-world projects that combine hardware and software, including robotic arms,
+                        Arduino-based systems, ROS2 simulations, AI models, and computer vision applications. I am also actively
+                        involved in technical communities, workshops, hackathons, and student leadership roles.
+                    </p>
 
-
-                    </div>
-                    <!-- about -->
-                    </div>
-                    <div id="about">
-                    <div class="container">
-                    <div class="row">
-                        <div class="about-col-1">
-                            <img src="images/abinu dp.jpeg">
-                        </div>
-                        <div class="about-col-2">
-                            <h1 class="sub-title">About Me</h1>
-                            <p>I am a B.Tech student in Robotics and Artificial Intelligence at Rajiv Gandhi Institute of Technology, Kottayam. I am passionate about robotics, artificial intelligence, embedded systems, computer vision, and automation.
-
-I enjoy building real-world projects that combine hardware and software, including robotic arms, Arduino-based systems, ROS2 simulations, AI models, and computer vision applications. I am also actively involved in technical communities, workshops, hackathons, and student leadership roles.
-                        
-                       
-                            </p>
-                            <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('Experince')">Experince</p>
-                    <p class="tab-links" onclick="opentab('Education')">Education</p>
-
-                            </div>
-                            <div class="tab-contents active-tab" id="Skills">
-
-                                <ul>
-                                    <li><span>Programming</span><br> Python, C++, JavaScript, SQL, Flask, React, HTML, CSS</li>
-                                    <li><span>Robotics & Automation</span><br> ROS2, Gazebo, Dobot Magician, Arduino, ESP32, sensors, motor drivers, embedded systems</li>
-                                    <li><span>Leadership & Event Coordination</span><br>Technical coordination, workshop planning, public relations, team management, event promotion</li>
-                                    
-                                </ul>
-                            </div>
-                            <div class="tab-contents" id="Experince">
-
-                                <ul>
-                                    <li><span>Intern – Inker Robotics</span><br>Completed a hands-on internship in Robotics and Embedded Systems, working with Arduino, ESP32, Dobot Magician, OpenCV, ROS2, Gazebo, sensors, and automation projects.</li>
-                                    <li><span>Technical Coordinator – IEEE RAS SBC RIT</span><br>Coordinating robotics and automation-related technical activities, workshops, and student projects under IEEE Robotics and Automation Society.</li>
-                                    <li><span>Technical Lead – ISTE Mechatronics Club</span><br>Supporting technical events, mentoring students, organizing workshops, and contributing to robotics and mechatronics activities.</li>
-                                    
-                                </ul>
-                            </div>
-                            <div class="tab-contents" id="Education">
-
-                                <ul>
-                                    <li><span>2021</span><br>Cleared SSLC with full A+</li>
-                                    <li><span>2023</span><br>Cleared + 2 with 98% marks</li>
-                                    <li><span>2024 – Present</span><br>B.Tech in Robotics and Artificial Intelligence
-Rajiv Gandhi Institute of Technology, Kottayam</li>
-                                    
-                                </ul>
-                            </div>
-                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
                     </div>
 
-
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming</span><br>Python, C++, JavaScript, SQL, Flask, React, HTML, CSS</li>
+                            <li><span>Robotics & Automation</span><br>ROS2, Gazebo, Dobot Magician, Arduino, ESP32, sensors, motor drivers, embedded systems</li>
+                            <li><span>AI & Computer Vision</span><br>OpenCV, Machine Learning, MediaPipe, data analysis, and model development</li>
+                            <li><span>Leadership & Event Coordination</span><br>Technical coordination, workshop planning, public relations, team management, and event promotion</li>
+                        </ul>
                     </div>
 
-
-
-
-                    </div>
-                    <!-- services -->
-                    <div id="services">
-                    <div class="container">
-                        <h1 class="sub-title">My Services</h1>
-                        <div class="services-list">
-                            <div>
-                                <i class="fa-solid fa-code"></i>
-                                <h2>Robotics & Embedded Systems</h2>
-                                <p>Designing and developing automation projects using Arduino, ESP32, sensors, actuators, and robotic systems.</p>
-                                <a href="https://www.thiswebsitewillselfdestruct.com/" target="_blank" >Learn more</a>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-crop"></i>
-                                <h2>AI & Computer Vision Solutions</h2>
-                                <p>Building AI-based and OpenCV-based systems for object detection, color recognition, automation, and intelligent decision-making.</p>
-                                <a href="https://www.thiswebsitewillselfdestruct.com/" target="_blank" >Learn more</a>
-                            </div>
-                            <div>
-                                <i class="fa-brands fa-app-store-ios"></i>
-                                <h2>Web Development</h2>
-                                <p>Creating responsive websites and dashboards using HTML, CSS, JavaScript, Flask, and React.</p>
-                                <a href="https://www.thiswebsitewillselfdestruct.com/" target="_blank" >Learn more</a>
-                            </div>
-
-
-
-                        </div>
-
-
-
-
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Intern – Inker Robotics</span><br>Completed a hands-on internship in Robotics and Embedded Systems, working with Arduino, ESP32, Dobot Magician, OpenCV, ROS2, Gazebo, sensors, and automation projects.</li>
+                            <li><span>Technical Coordinator – IEEE RAS SBC RIT</span><br>Coordinating robotics and automation-related technical activities, workshops, and student projects under IEEE Robotics and Automation Society.</li>
+                            <li><span>Technical Lead – ISTE Mechatronics Club</span><br>Supporting technical events, mentoring students, organizing workshops, and contributing to robotics and mechatronics activities.</li>
+                        </ul>
                     </div>
 
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024 – Present</span><br>B.Tech in Robotics and Artificial Intelligence<br>Rajiv Gandhi Institute of Technology, Kottayam</li>
+                            <li><span>2023</span><br>Completed Plus Two with 98% marks</li>
+                            <li><span>2021</span><br>Cleared SSLC with full A+</li>
+                        </ul>
                     </div>
-                    <!-- portfoloiooo -->
-                    <div id="portfolio">
-                    <div class="container">
-                        <h1 class="sub-title">My work</h1>
-                        <div class="work-list">
-                            <div class="work">
-                                <img src="images/ieeee.jpeg" class="n">
-                                <div class="layer">
-                                    <h3>Automated Color Sorting System</h3>
-                                <p>Developed a robotic color sorting system using Dobot Magician robotic arms, conveyor mechanism, Arduino, IR sensor, Python, and OpenCV. The system detects colored blocks and performs dynamic pick-and-place sorting.</p>
-                                    <a href="https://www.instagram.com/p/DAYqw4qsSjK/?hl=en"  target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
 
-                                </div>
+            </div>
+        </div>
+    </div>
 
-                            </div>
-                            <div class="work">
-                                <img src="images/atomm.jpeg" class="n">
-                                <div class="layer">
-                                    <h3>Robot Chess using Dobot</h3>
-                                <p>Built a robot chess system using Flask, chessboard.js, Stockfish, python-chess, and Dobot Magician to interact with a digital chessboard.</p>
-                                    <a href="https://www.instagram.com/p/DAjE9FKSqVL/?hl=en"  target="_blank"><i class="fa-solid fa-link"></i></a>
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
 
-                                </div>
+            <div class="services-list">
 
-                            </div>
-                            <div class="work">
-                                <img src="images/nss.jpeg" class="n">
-                                <div class="layer">
-                                    <h3>Leader's Camp</h3>
-                                                                <p>I had the privilege of attending a 3-day camp at Thrissur Vidya College for the NSS Leaders Camp, where I gained valuable insights into leadership. The camp was filled with engaging activities and events designed to enhance our leadership skills and foster teamwork</p>
-                                                                <a href="https://www.instagram.com/nss_st_joseph_mathilakam/"  target="_blank"><i class="fa-solid fa-link"></i></a>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Robotics & Embedded Systems</h2>
+                    <p>Designing and developing automation projects using Arduino, ESP32, sensors, actuators, and robotic systems.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
 
-                                </div>
+                <div>
+                    <i class="fa-solid fa-eye"></i>
+                    <h2>AI & Computer Vision</h2>
+                    <p>Building AI-based and OpenCV-based systems for object detection, color recognition, automation, and intelligent decision-making.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
 
-                            </div>
-                        
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Creating responsive websites and dashboards using HTML, CSS, JavaScript, Flask, and React.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
 
+            </div>
+        </div>
+    </div>
 
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
 
+            <div class="work-list">
 
-
-
-                        </div>
-                        <a href="https://www.linkedin.com/in/abinu-alfred"  target="_blank" class="btn">see more</a>
-
-
+                <div class="work">
+                    <img src="images/ieeee.jpeg" alt="Automated Color Sorting System">
+                    <div class="layer">
+                        <h3>Automated Color Sorting System</h3>
+                        <p>Developed a robotic color sorting system using Dobot Magician robotic arms, conveyor mechanism, Arduino, IR sensor, Python, and OpenCV.</p>
+                        <a href="https://www.instagram.com/p/DAYqw4qsSjK/?hl=en" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                    <!-- contaact formmm -->
-                    <div id="contact">
-                    <div class="container">
-                    <div class="row">
-                    <div class="contact-left">
-                    <h1 class="sub-title">contact me</h1>
+                </div>
+
+                <div class="work">
+                    <img src="images/atomm.jpeg" alt="Robot Chess using Dobot">
+                    <div class="layer">
+                        <h3>Robot Chess using Dobot</h3>
+                        <p>Built a robot chess system using Flask, chessboard.js, Stockfish, python-chess, and Dobot Magician to interact with a digital chessboard.</p>
+                        <a href="https://www.instagram.com/p/DAjE9FKSqVL/?hl=en" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/nss.jpeg" alt="Leader's Camp">
+                    <div class="layer">
+                        <h3>Leader's Camp</h3>
+                        <p>Attended a 3-day NSS Leaders Camp at Thrissur Vidya College, gaining valuable insights into leadership, teamwork, and communication.</p>
+                        <a href="https://www.instagram.com/nss_st_joseph_mathilakam/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="https://www.linkedin.com/in/abinu-alfred" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fa-solid fa-envelope"></i>alfredabinu@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>+91 7591910238</p>
+
                     <div class="social-icons">
-                    
-                    <a href="https://www.instagram.com/abinu_alfred/"  target="_blank" class="social-icons"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/abinu-alfred" target="_blank" class="social-icons"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://youtube.com/@futurewithabinu?si=DWHYjNuWdHKcC3rl" target="_blank" class="social-icons"><i class="fa-brands fa-youtube"></i></i></a>
-
+                        <a href="https://www.instagram.com/abinu_alfred/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/abinu-alfred" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@futurewithabinu?si=DWHYjNuWdHKcC3rl" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                     </div>
+
                     <a href="images/ABINU_ALFRED (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
 
-
-
-
-                    </div>
-                    <div class="contact-right">
-                        
-                        
-                        <form name="submit-to-google-sheet">
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
 
-                        </textarea>
-                        <button type="submit"class="btn btn2" >Submit</button>
+                    <span id="msg"></span>
+                </div>
 
+            </div>
+        </div>
 
+        <div class="copyright">
+            <p>© 2024 Abinu Alfred. All Rights Reserved. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
 
+    <!-- JAVASCRIPT -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-                        </form>
-                        <span id="msg"></span>
+        function opentab(event, tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
 
-                    </div>
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 
-                    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdp9nwVzxSNS3zL_5edevJVlYN1SUa3ceoJNxt5BAH26dVdh9L4OFwY-H57z3h-kzbgQ/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
 
+        form.addEventListener('submit', e => {
+            e.preventDefault();
 
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function () {
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+    </script>
 
-                    </div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
 
-                    <div class="copyright">
-                    <p> © 2024 Abinu Alfred. All Rights Reserved. <i class="fa-solid fa-heart"></i> </p>
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
 
-
-                    </div>
-
-
-
-
-
-
-                    </div>
-
-
-                    <script>
-
-
-
-                    var tablinks = document.getElementsByClassName("tab-links");
-                    var tabcontents = document.getElementsByClassName("tab-contents");
-
-
-                    function opentab(tabname){
-                        for(tablink of tablinks){
-                            tablink.classList.remove("active-link");
-
-                        }
-                        for(tabcontent of tabcontents){
-                            tabcontent.classList.remove("active-tab");
-                            
-                        }
-                        event.currentTarget.classList.add("active-link");
-                        document.getElementById(tabname).classList.add("active-tab")
-                    }
-
-
-                    </script>
-                    <script>
-                        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdp9nwVzxSNS3zL_5edevJVlYN1SUa3ceoJNxt5BAH26dVdh9L4OFwY-H57z3h-kzbgQ/exec'
-                        const form = document.forms['submit-to-google-sheet']
-                        const msg = document.getElementById("msg")
-
-
-                        form.addEventListener('submit', e => {
-                        e.preventDefault()
-                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                            .then(response => {
-                                
-                                msg.innerHTML = "message sent succesfully"
-                                setTimeout(function(){
-                                msg.innerHTML = ""},5000)
-                                form.reset()
-
-                                }
-                            )
-                            .catch(error => console.error('Error!', error.message))
-                        })
-                    </script>
-                    <script>
-                     var sidemenu = document.getElementById("sidemenu");
-                     
-                     function openmenu(){
-                        sidemenu.style.right = "0";
-                     }
-                     function closemenu(){
-                        sidemenu.style.right = "-200px";
-                     }
-                    </script>
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
 
 </body>
-
-
-
-
-
 </html>

@@ -413,7 +413,9 @@ nav .fa-solid {
         padding: 10px 6%;
     }
 
-    
+    #header {
+        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/black.jpeg');
+    }
 
     .header-text {
         margin-top: 80%;
